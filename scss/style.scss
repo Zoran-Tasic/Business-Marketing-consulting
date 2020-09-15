@@ -1,0 +1,57 @@
+/*********************
+variables
+*********************/
+
+$fontFamily: 'Raleway',
+sans-serif;
+$font: 16px;
+$black: #1f1f1f;
+$pink: #ef1f52;
+$gray: gray;
+$lightgray: #cccac5;
+$boxShadom: #cccac5;
+$white: #fff;
+$transition: .3s ease;
+$padding: 50px 0;
+
+/*********************
+basic styles
+*********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontFamily;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+        color: $white;
+        transition: $transition;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
