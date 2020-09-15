@@ -9,7 +9,7 @@ $black: #1f1f1f;
 $pink: #ef1f52;
 $gray: gray;
 $lightgray: #cccac5;
-$boxShadom: #cccac5;
+$boxShadow: #cccac5;
 $white: #fff;
 $transition: .3s ease;
 $padding: 50px 0;
@@ -131,5 +131,46 @@ header {
     button {
         @include btn;
         margin-right: 200px;
+    }
+}
+
+
+/*****************
+about us
+*****************/
+
+.aboutUs {
+    padding: $padding;
+    h2 {
+        color: $lightgray;
+    }
+    h5 {
+        font-size: .9rem;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        span {
+            color: $pink;
+        }
+    }
+    p {
+        font-size: 1rem;
+    }
+    .col-md-5 {
+        background-image: url(../img/about.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+    }
+    .col-md-7 {
+        padding: 0 30px;
+        h3 {
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: .8rem;
+        }
     }
 }

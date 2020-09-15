@@ -110,4 +110,43 @@ header button {
   margin-right: 200px;
 }
 
+/*****************
+about us
+*****************/
+.aboutUs {
+  padding: 50px 0;
+}
+.aboutUs h2 {
+  color: #cccac5;
+}
+.aboutUs h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.aboutUs h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.aboutUs h3 span {
+  color: #ef1f52;
+}
+.aboutUs p {
+  font-size: 1rem;
+}
+.aboutUs .col-md-5 {
+  background-image: url(../img/about.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.aboutUs .col-md-7 {
+  padding: 0 30px;
+}
+.aboutUs .col-md-7 h3 {
+  font-size: 1.7rem;
+}
+.aboutUs .col-md-7 p {
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
