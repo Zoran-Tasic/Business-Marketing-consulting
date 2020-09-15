@@ -1,0 +1,113 @@
+/*********************
+variables
+*********************/
+/*******************
+mixins
+*******************/
+/*********************
+basic styles
+*********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/*************
+nav
+*************/
+nav {
+  background: linear-gradient(to right, #ef1f52, #fff);
+}
+nav .navbar-brand {
+  font-size: 1rem;
+}
+nav .navbar-brand span {
+  font-size: 1.7rem;
+}
+nav .nav-item {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+nav .nav-item .signUp {
+  background: #ef1f52 !important;
+  color: #fff !important;
+  height: 90%;
+  padding: 8px 20px !important;
+}
+nav .nav-item .search {
+  background: #1f1f1f;
+  height: 90%;
+  color: #fff !important;
+}
+
+/*************
+header
+*************/
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+header hgroup {
+  padding-right: 200px;
+}
+header hgroup h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+header hgroup h4 {
+  color: #ef1f52;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-weight: 700;
+}
+header hgroup p {
+  color: #ef1f52;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+header button {
+  background: #ef1f52;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  font-size: 0.9rem;
+  margin-right: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
