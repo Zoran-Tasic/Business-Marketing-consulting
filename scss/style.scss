@@ -24,6 +24,11 @@ mixins
     padding: 10px 30px;
     border: none;
     font-size: .9rem;
+    &:hover {
+        color: $pink;
+        background: $white;
+        transition: $transition;
+    }
 }
 
 
@@ -67,6 +72,9 @@ a {
 .container {
     width: 80%;
     margin: auto;
+    @media(max-width: 768px) {
+        width: 90%;
+    }
 }
 
 
@@ -95,6 +103,7 @@ nav {
         .search {
             background: $black;
             height: 90%;
+            align-items: center !important;
             color: $white !important;
         }
     }
@@ -112,6 +121,9 @@ header {
     height: 60vh;
     hgroup {
         padding-right: 200px;
+        @media(max-width: 768px) {
+            padding-right: 20px;
+        }
         h2 {
             font-size: 2.5rem;
             font-weight: 700;
@@ -168,6 +180,9 @@ about us
         padding: 0 30px;
         h3 {
             font-size: 1.7rem;
+            @media(max-width: 768px) {
+                padding-top: 10px;
+            }
         }
         p {
             font-size: .8rem;
@@ -182,37 +197,48 @@ services
 
 .services {
     padding: $padding;
-    h2 {
-        color: $lightgray;
+    @media(max-width: 768px) {
+        padding-top: 10px;
+    }
+}
+
+h2 {
+    color: $lightgray;
+}
+
+h5 {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    span {
+        color: $pink;
+    }
+}
+
+p {
+    font-size: 1rem;
+}
+
+.col-md-4 {
+    flex: 0 0 30%;
+    @media(max-width: 768px) {
+        flex: 0 0 100%;
+    }
+    padding: 10px;
+    i {
+        color: $pink;
+        font-size: 3rem;
+        padding-bottom: 20px;
     }
     h5 {
-        font-size: .9rem;
-        font-weight: 700;
-    }
-    h3 {
-        font-size: 1.9rem;
-        font-weight: 700;
-        span {
-            color: $pink;
-        }
-    }
-    p {
         font-size: 1rem;
     }
-    .col-md-4 {
-        flex: 0 0 30%;
-        padding: 10px;
-        i {
-            color: $pink;
-            font-size: 3rem;
-            padding-bottom: 20px;
-        }
-        h5 {
-            font-size: 1rem;
-        }
-        p {
-            font-size: .8rem;
-        }
+    p {
+        font-size: .8rem;
     }
 }
 
@@ -305,6 +331,7 @@ our team
         width: 100%;
         border-radius: 50%;
         border: 10px solid $boxShadow;
+        opacity: .85;
     }
     h4 {
         color: $pink;
@@ -316,5 +343,30 @@ our team
         p {
             font-size: .8rem;
         }
+    }
+}
+
+
+/*************
+footer
+*************/
+
+footer {
+    color: $white;
+    background: linear-gradient(to right, $black, $pink);
+    h5 {
+        color: $pink;
+        font-size: .9rem;
+    }
+    h4 {
+        color: $pink;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
+    i {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: .8rem;
     }
 }

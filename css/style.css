@@ -44,6 +44,11 @@ a:hover {
   width: 80%;
   margin: auto;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
 
 /*************
 nav
@@ -71,6 +76,7 @@ nav .nav-item .signUp {
 nav .nav-item .search {
   background: #1f1f1f;
   height: 90%;
+  align-items: center !important;
   color: #fff !important;
 }
 
@@ -85,6 +91,11 @@ header {
 }
 header hgroup {
   padding-right: 200px;
+}
+@media (max-width: 768px) {
+  header hgroup {
+    padding-right: 20px;
+  }
 }
 header hgroup h2 {
   font-size: 2.5rem;
@@ -108,6 +119,11 @@ header button {
   border: none;
   font-size: 0.9rem;
   margin-right: 200px;
+}
+header button:hover {
+  color: #ef1f52;
+  background: #fff;
+  transition: 0.3s ease;
 }
 
 /*****************
@@ -145,6 +161,11 @@ about us
 .aboutUs .col-md-7 h3 {
   font-size: 1.7rem;
 }
+@media (max-width: 768px) {
+  .aboutUs .col-md-7 h3 {
+    padding-top: 10px;
+  }
+}
 .aboutUs .col-md-7 p {
   font-size: 0.8rem;
 }
@@ -155,36 +176,51 @@ services
 .services {
   padding: 50px 0;
 }
-.services h2 {
+@media (max-width: 768px) {
+  .services {
+    padding-top: 10px;
+  }
+}
+
+h2 {
   color: #cccac5;
 }
-.services h5 {
+
+h5 {
   font-size: 0.9rem;
   font-weight: 700;
 }
-.services h3 {
+
+h3 {
   font-size: 1.9rem;
   font-weight: 700;
 }
-.services h3 span {
+h3 span {
   color: #ef1f52;
 }
-.services p {
+
+p {
   font-size: 1rem;
 }
-.services .col-md-4 {
+
+.col-md-4 {
   flex: 0 0 30%;
   padding: 10px;
 }
-.services .col-md-4 i {
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+  }
+}
+.col-md-4 i {
   color: #ef1f52;
   font-size: 3rem;
   padding-bottom: 20px;
 }
-.services .col-md-4 h5 {
+.col-md-4 h5 {
   font-size: 1rem;
 }
-.services .col-md-4 p {
+.col-md-4 p {
   font-size: 0.8rem;
 }
 
@@ -222,6 +258,11 @@ what we done
   border: none;
   font-size: 0.9rem;
   margin-right: 200px;
+}
+.whatWeDone button:hover {
+  color: #ef1f52;
+  background: #fff;
+  transition: 0.3s ease;
 }
 .whatWeDone .col-md-4 {
   flex: 0 0 30%;
@@ -278,6 +319,7 @@ our team
   width: 100%;
   border-radius: 50%;
   border: 10px solid #cccac5;
+  opacity: 0.85;
 }
 .team h4 {
   color: #ef1f52;
@@ -286,6 +328,29 @@ our team
   padding: 20px;
 }
 .team .col-md-4 p {
+  font-size: 0.8rem;
+}
+
+/*************
+footer
+*************/
+footer {
+  color: #fff;
+  background: linear-gradient(to right, #1f1f1f, #ef1f52);
+}
+footer h5 {
+  color: #ef1f52;
+  font-size: 0.9rem;
+}
+footer h4 {
+  color: #ef1f52;
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+footer i {
+  font-size: 1.5rem;
+}
+footer p {
   font-size: 0.8rem;
 }
 
