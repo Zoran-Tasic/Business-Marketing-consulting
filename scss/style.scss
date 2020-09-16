@@ -215,3 +215,59 @@ services
         }
     }
 }
+
+
+/*************
+what we done 
+*************/
+
+.whatWeDone {
+    background: $black;
+    padding: $padding;
+    h2 {
+        color: $lightgray;
+    }
+    h5 {
+        font-size: .9rem;
+        font-weight: 700;
+        color: $white;
+    }
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: $white;
+        span {
+            color: $pink;
+        }
+    }
+    p {
+        font-size: 1rem;
+        color: $white;
+    }
+    button {
+        @include btn;
+        margin-right: 200px;
+    }
+    .col-md-4 {
+        flex: 0 0 30%;
+        h3 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: $pink;
+        }
+        h5 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: $pink;
+            text-transform: uppercase;
+            &::after {
+                display: block;
+                content: "";
+                width: 70px;
+                height: 2px;
+                background: $white;
+                margin: 20px auto;
+            }
+        }
+    }
+}

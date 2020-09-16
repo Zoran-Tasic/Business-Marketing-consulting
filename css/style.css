@@ -188,4 +188,62 @@ services
   font-size: 0.8rem;
 }
 
+/*************
+what we done 
+*************/
+.whatWeDone {
+  background: #1f1f1f;
+  padding: 50px 0;
+}
+.whatWeDone h2 {
+  color: #cccac5;
+}
+.whatWeDone h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+}
+.whatWeDone h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #fff;
+}
+.whatWeDone h3 span {
+  color: #ef1f52;
+}
+.whatWeDone p {
+  font-size: 1rem;
+  color: #fff;
+}
+.whatWeDone button {
+  background: #ef1f52;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  font-size: 0.9rem;
+  margin-right: 200px;
+}
+.whatWeDone .col-md-4 {
+  flex: 0 0 30%;
+}
+.whatWeDone .col-md-4 h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ef1f52;
+}
+.whatWeDone .col-md-4 h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #ef1f52;
+  text-transform: uppercase;
+}
+.whatWeDone .col-md-4 h5::after {
+  display: block;
+  content: "";
+  width: 70px;
+  height: 2px;
+  background: #fff;
+  margin: 20px auto;
+}
+
 /*# sourceMappingURL=style.css.map */
