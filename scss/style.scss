@@ -271,3 +271,50 @@ what we done
         }
     }
 }
+
+
+/*******************
+our team 
+******************/
+
+.team {
+    padding: $padding;
+    h2 {
+        color: $lightgray;
+    }
+    h5 {
+        font-size: .9rem;
+        font-weight: 700;
+        color: $black;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: $black;
+        text-transform: uppercase;
+        span {
+            color: $pink;
+        }
+    }
+    p {
+        font-size: 1rem;
+        color: $black;
+    }
+    img {
+        width: 100%;
+        border-radius: 50%;
+        border: 10px solid $boxShadow;
+    }
+    h4 {
+        color: $pink;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .col-md-4 {
+        p {
+            font-size: .8rem;
+        }
+    }
+}

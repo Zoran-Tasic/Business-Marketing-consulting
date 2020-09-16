@@ -246,4 +246,47 @@ what we done
   margin: 20px auto;
 }
 
+/*******************
+our team 
+******************/
+.team {
+  padding: 50px 0;
+}
+.team h2 {
+  color: #cccac5;
+}
+.team h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+.team h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+.team h3 span {
+  color: #ef1f52;
+}
+.team p {
+  font-size: 1rem;
+  color: #1f1f1f;
+}
+.team img {
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid #cccac5;
+}
+.team h4 {
+  color: #ef1f52;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 20px;
+}
+.team .col-md-4 p {
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
