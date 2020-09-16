@@ -149,4 +149,43 @@ about us
   font-size: 0.8rem;
 }
 
+/***************
+services
+***************/
+.services {
+  padding: 50px 0;
+}
+.services h2 {
+  color: #cccac5;
+}
+.services h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.services h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.services h3 span {
+  color: #ef1f52;
+}
+.services p {
+  font-size: 1rem;
+}
+.services .col-md-4 {
+  flex: 0 0 30%;
+  padding: 10px;
+}
+.services .col-md-4 i {
+  color: #ef1f52;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.services .col-md-4 h5 {
+  font-size: 1rem;
+}
+.services .col-md-4 p {
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */

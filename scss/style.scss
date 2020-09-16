@@ -174,3 +174,44 @@ about us
         }
     }
 }
+
+
+/***************
+services
+***************/
+
+.services {
+    padding: $padding;
+    h2 {
+        color: $lightgray;
+    }
+    h5 {
+        font-size: .9rem;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        span {
+            color: $pink;
+        }
+    }
+    p {
+        font-size: 1rem;
+    }
+    .col-md-4 {
+        flex: 0 0 30%;
+        padding: 10px;
+        i {
+            color: $pink;
+            font-size: 3rem;
+            padding-bottom: 20px;
+        }
+        h5 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: .8rem;
+        }
+    }
+}
